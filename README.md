@@ -9,6 +9,7 @@
 ## ✨In this project:
 - [Source code](https://github.com/nnbaocuong99/Basic-CRUD/tree/main/src/main)
 - [Dockerfile](https://github.com/nnbaocuong99/Basic-CRUD/blob/main/Dockerfile)
+- [pom.xml](https://github.com/nnbaocuong99/Basic-CRUD/blob/main/pom.xml)
 - Dependencies import
 ```
 digraph "org.example:demo_restful:jar:1.0-SNAPSHOT" { 
@@ -90,8 +91,6 @@ digraph "org.example:demo_restful:jar:1.0-SNAPSHOT" {
 	"org.springframework.boot:spring-boot-starter-validation:jar:2.4.5:compile" -> "org.hibernate.validator:hibernate-validator:jar:6.1.7.Final:compile" ; 
 	"org.hibernate.validator:hibernate-validator:jar:6.1.7.Final:compile" -> "jakarta.validation:jakarta.validation-api:jar:2.0.2:compile" ; 
 ```
-- [pom.xml](https://github.com/nnbaocuong99/Basic-CRUD/blob/main/pom.xml)
-
 
 ## ✨How to use
 1. build image:
