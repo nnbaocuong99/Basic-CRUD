@@ -2,7 +2,7 @@
 
 ## ✨Informations / What I'm using
 - Language: Java
-- IDE: Intellij 
+- IDE: [Intellij](https://www.jetbrains.com/idea/)
 - Build: Docker, VScode
 - API Platform test: [Postman](https://www.postman.com/product/what-is-postman/), [Swagger UI](https://swagger.io/tools/swagger-ui/)
 
