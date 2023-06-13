@@ -1,17 +1,17 @@
 <h1 align="center">Basic crud for report session✨</h1>
 
-## ✨Informations / What I'm using
+### 1. Informations / What I'm using
 - Language: Java
 - IDE: [Intellij](https://www.jetbrains.com/idea/)
 - Build: Docker, VScode
 - API Platform test: [Postman](https://www.postman.com/product/what-is-postman/), [Swagger UI](https://swagger.io/tools/swagger-ui/)
 
-## ✨In this project:
+### 2. In this project:
 - [Source code](https://github.com/nnbaocuong99/Basic-CRUD/tree/main/src/main)
 - [Dockerfile](https://github.com/nnbaocuong99/Basic-CRUD/blob/main/Dockerfile)
 - [pom.xml](https://github.com/nnbaocuong99/Basic-CRUD/blob/main/pom.xml)
 - Dependencies import
-```
+```java
 digraph "org.example:demo_restful:jar:1.0-SNAPSHOT" { 
 	"org.example:demo_restful:jar:1.0-SNAPSHOT" -> "org.springframework.boot:spring-boot-starter-data-jpa:jar:2.4.5:compile" ; 
 	"org.example:demo_restful:jar:1.0-SNAPSHOT" -> "org.springframework.boot:spring-boot-starter-web:jar:2.4.5:compile" ; 
@@ -92,16 +92,16 @@ digraph "org.example:demo_restful:jar:1.0-SNAPSHOT" {
 	"org.hibernate.validator:hibernate-validator:jar:6.1.7.Final:compile" -> "jakarta.validation:jakarta.validation-api:jar:2.0.2:compile" ; 
 ```
 
-## ✨How to use
+### ✨How to use
 1. build image:
-```
-$ docker build -t crud-test:test .
+```ruby
+docker build -t crud-test:test .
 ```
 
 2. Run, Start:
-```
-$ docker run -p 8181:8080 -d crud-test
+```ruby
+docker run -p 8181:8080 -d crud-test
 ```
 
 3. Test: 
-`localhost:8181` test API
+Access: `localhost:8181` để test API
